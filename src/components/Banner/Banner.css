@@ -1,0 +1,14 @@
+.theBackground{
+  background-color: rgb(2, 35, 66);  
+  color: #eeee;
+  height:9rem; 
+}
+
+.container{
+    padding-top:1rem;
+}
+
+#emptyDiv{
+    background-color: red;
+    height: .5rem;
+}
