@@ -3,7 +3,8 @@ import React, { Component } from "react";
 
 class Table extends Component {
   state = {
-    results: [],
+    original: [],
+    results: []
   };
 
   componentDidMount() {
@@ -14,8 +15,34 @@ class Table extends Component {
     axios
       .get("https://randomuser.me/api/?results=50")
       .then((response) => this.setState({ results: response.data.results }))
-      .then((res) => console.log(this.state.results));
+      .then((res) => this.setState({original: this.state.results}));
   }
+
+  sortData = (e) => {
+    console.log(e.target.value);
+    let filteredArr = this.state.original.filter(query => query.cell.includes(e.target.value) )
+    this.setState({results: filteredArr})
+  }
+
+sortName = (e) => {
+ let sortedArr = this.state.original.sort(function(a,b){
+   let nameA = a.name.first.toUpperCase();
+   let nameB = b.name.first.toUpperCase();
+
+   if (nameA < nameB) {
+    return -1;
+  }
+  if (nameA > nameB) {
+    return 1;
+  }
+
+  // names must be equal
+  return 0;
+ })
+
+ this.setState({results: sortedArr})
+}
+
 
   render() {
     return (
@@ -24,7 +51,7 @@ class Table extends Component {
           <br />
           <div className="text-center">
             <form>
-              <input value="" type="text" placeholder="Search Employee" />
+              <input type="text" placeholder="Search Employee" onChange={this.sortData}/>
             </form>
           </div>
           <br />
@@ -37,7 +64,7 @@ class Table extends Component {
                   <thead>
                     <tr>
                       <th scope="col">Image</th>
-                      <th scope="col">Name</th>
+                      <th scope="col" onClick={this.sortName}>Name</th>
                       <th scope="col">Phone</th>
                       <th scope="col">Email</th>
                       <th scope="col">Age</th>
