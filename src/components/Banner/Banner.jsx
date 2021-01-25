@@ -14,8 +14,8 @@ const Banner = () => {
           <div className="row">
             <div className="col-sm-12">
               <p className="text-center">
-                Clock on carrots to filter by heading or use the search box to
-                narrow your results.
+                Click on name to sort by first name or use the search box to
+                filter by number.
               </p>
             </div>
           </div>

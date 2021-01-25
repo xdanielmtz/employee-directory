@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# employee-directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contribution)
+* [Questions](#questions)
+* [Screenshot](#screenshot)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
-In the project directory, you can run:
+## Description
+budget-tracker is a financial app. As the name suggests, it allows users to keep track of their expenses and view their balance in the
+form of a graph. Not only can do you have the option to view the application in the browser but you can also download it to your machine. 
+## Installation
+Follow these steps to view the application!
 
-### `npm start`
+1. Open link in (Github.) [https://github.com/xdanielmtz/budget-tracker]
+2. Clone with SSH Key
+3. Run `git clone` command in Terminal with the pasted link
+4. Run `code .` command to open in VS Code.
+5. Run `npm install` to install all dependencies
+6. Run `npm start` to initialize the server on your local if you wish to view it there.
+7. Enjoy
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
+Upon entering the application, your balance will be set at $0. You will see two fields for you to insert information; one for a transaction name and the other for transaction amount. As you enter your data you will notice a few things:
+Your total balance on top of the page in bold text. 
+All your transaction history with the name and amount side by side.
+And just below that will be a chart of your balance to better help you visualize your expenses. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contribution
+IF you wish to contribute, here is how:
+GO to my repo and fork my repository.
+CLONE with ssh and view it on your local machine.
+WHEN you have made your contributions, run git push and I will review for a merge.
 
-### `npm test`
+## Questions
+If you have any questions contact me through email:
+    (Daniel Martinez) - [xdanielmtz@gmail.com]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshot
+![Home Page](assets/budget-tracker-ss.png)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Deployment
+https://budget-tracker-u.herokuapp.com/
+## Credits
+I would like to give credits to my instructor, Jonathan Watson for providing me with the information needed to complete this assignment. 
