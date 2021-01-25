@@ -51,7 +51,7 @@ sortName = (e) => {
           <br />
           <div className="text-center">
             <form>
-              <input type="text" placeholder="Search Employee" onChange={this.sortData}/>
+              <input type="text" placeholder="Search by Number" onChange={this.sortData}/>
             </form>
           </div>
           <br />
