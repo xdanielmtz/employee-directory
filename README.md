@@ -12,12 +12,12 @@
 * [Credits](#credits)
 
 ## Description
-budget-tracker is a financial app. As the name suggests, it allows users to keep track of their expenses and view their balance in the
-form of a graph. Not only can do you have the option to view the application in the browser but you can also download it to your machine. 
+employee-directory is an application for designed for you to view your employees in a quick and easy fashion.  
+
 ## Installation
 Follow these steps to view the application!
 
-1. Open link in (Github.) [https://github.com/xdanielmtz/budget-tracker]
+1. Open link in (Github.) [https://github.com/xdanielmtz/employee-directory]
 2. Clone with SSH Key
 3. Run `git clone` command in Terminal with the pasted link
 4. Run `code .` command to open in VS Code.
@@ -26,10 +26,8 @@ Follow these steps to view the application!
 7. Enjoy
 
 ## Usage
-Upon entering the application, your balance will be set at $0. You will see two fields for you to insert information; one for a transaction name and the other for transaction amount. As you enter your data you will notice a few things:
-Your total balance on top of the page in bold text. 
-All your transaction history with the name and amount side by side.
-And just below that will be a chart of your balance to better help you visualize your expenses. 
+Upon entering the application, you will be greeted with a simple and clean design. Right away when the page loads you will see your 50 employees along with their image, name, phone, email, and their age.
+You will see this data in the form of a table. If you click on the "Name" column, that will place the employees in order by alphabetical name. Also, you can search by number in the search bar. 
 
 ## Contribution
 IF you wish to contribute, here is how:
@@ -42,9 +40,9 @@ If you have any questions contact me through email:
     (Daniel Martinez) - [xdanielmtz@gmail.com]
 
 ## Screenshot
-![Home Page](assets/budget-tracker-ss.png)
+![Home Page](assets/employee-directory-ss.png)
 
 ## Deployment
-https://budget-tracker-u.herokuapp.com/
+
 ## Credits
 I would like to give credits to my instructor, Jonathan Watson for providing me with the information needed to complete this assignment. 
