@@ -43,6 +43,6 @@ If you have any questions contact me through email:
 ![Home Page](assets/employee-directory-ss.png)
 
 ## Deployment
-
+https://xdanielmtz.github.io/employee-directory/
 ## Credits
 I would like to give credits to my instructor, Jonathan Watson for providing me with the information needed to complete this assignment. 
